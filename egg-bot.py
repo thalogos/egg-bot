@@ -100,6 +100,10 @@ async def sabbat(*aargs):
     await client.say(bw_text)
     await client.say('https://www.youtube.com/watch?v=TkC08sicP6Q')
 
+@client.command()
+async def swim(*aargs):
+    await client.say('Im an eggstreme swimmer!')
+    await client.say('https://www.youtube.com/watch?v=wXCDeqjWuDg')
     
        
 #gives fortunes based on egg puns 40% of the time
